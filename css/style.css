@@ -1,0 +1,450 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+ 
+}
+.header{
+    height: 500px;
+    width: 100%;
+    background: #87509C;
+    padding: 25px 0 ;
+
+}
+.header .container{
+    width: 90%;
+    text-align: center;
+    margin-left: 80px;
+    padding: 10px 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.logo img{
+    width: 80px;
+    height: 30px;
+    margin-left: 0;
+   
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 12px;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.header .active{
+    background-color: #643A79;
+    border-radius: 6px;
+}
+.header .navbar a:hover{
+    background-color: #643A79;
+    border-radius: 6px;
+}
+.header_text{
+    color: #fff;
+    margin-top: 150px;
+    padding: 0 140px;
+    font-size: 13px;
+}
+.btn{
+    margin-top: 45px;
+    background: #eb7d4b;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 50px;
+    outline: 0;
+    border: 0;
+    letter-spacing: 1px;
+}
+
+/* service part start  */
+
+.service_part{
+    background: #17c2a4;
+    height: 600px;
+    width: 100%;
+}
+.service_text{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 70px;
+
+}
+.service_text p{
+    color: #fff;
+    font-weight: 400;
+
+}
+.service_text span{
+    background: #808080;
+    margin: auto;
+    width: 106px;
+    height: 4px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.service_part .row .col-3 h1{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.service_part .row .col-3 p{
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 400;
+  padding: 0 50px;
+}
+
+/* service part end  */
+
+
+
+/* Team part Start  */
+.team_part{
+    height: 600px;
+    width: 100%;
+    background: #E7F1F8;
+}
+.team_text h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #3c4761;
+}
+.team_text p{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.team_text span{
+   height: 4px;
+   width: 150px;
+   background: #808080;
+   margin: auto;
+   display: block;
+   margin-bottom: 15px;
+   margin-top:5px;
+}
+.team_part img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.team_part .row h1{
+   font-size: 19px;
+   font-weight: bold;
+}
+.team_part .row h2{
+   font-size: 14px;
+   font-weight: 600;
+   color:#208EF0;
+}
+.team_part .row p{
+   font-size: 14px;
+   font-weight: 300;
+   margin: 10px 20px;
+   margin-bottom: 30px;
+  
+}
+
+.team_part .icon i{
+    height: 25px;
+    width: 25px;
+    background: #BDD1DF;
+    padding-top: 6px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    margin-left: 10px;
+    
+}
+/* Team part end  */
+
+
+/* skill part start  */
+.skill_part{
+    height: 510px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+.skill_part .container{
+   width: 80%;
+   margin-left: 150px;
+   margin-top: 100px;
+}
+.skill_part .container span{
+  display: block;
+  height: 4px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #808080;
+}
+.skill_part img{
+ width: 150px;
+ margin-top:60px;
+}
+
+
+/* skill part end  */
+
+
+/* portfilio part start  */
+.portfolio_part{
+    background: #FFDD99;
+    height:950px;
+    width: 100%;
+    text-align: center;
+}
+.portfolio_part .container{
+   width: 90%;
+  
+}
+.portfolio_part .container h1{ 
+  padding-top: 50px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+
+}
+.portfolio_part .container p{ 
+ padding-bottom: 30px;
+
+}
+.portfolio_part .container span{ 
+  background: #808080;
+  height: 4px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.portfolio_part .navbar a{
+    background: #EBC985;
+    border-radius: 6px;
+    color: #000;
+    font-weight: 600;
+    padding: 4px 18px;
+    margin-left: 10px;
+  
+}
+.portfolio_part .navbar .active{
+    background-color: #fff;
+}
+
+.portfolio_part img{
+   width: 350px;
+   margin-top: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+.portfolio_part .btn{
+    margin-top: 45px;
+    background: #17C2A4;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 50px;
+    outline: 0;
+    border: 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* portfilio part end  */
+
+
+
+/* About  part start  */
+
+.about_part{
+    height: 650px;
+    width: 100%;
+    background: #D74680;
+}
+.about_part span{
+    height:4px;
+    width: 150px;
+    display: block;
+    background: #808080;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about_part h1{
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.about_part p{
+    margin-bottom: 50px;
+}
+.about_part .container{
+   padding-top: 50px;
+   text-align: center;
+   color: #fff;
+ 
+}
+.about_part .row .col-6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 150px;
+    column-gap: 20px;
+    text-align: left;
+ }
+.about_part img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about_part .content h3{
+   font-size: 16px;
+   font-weight: 400;
+   font-style: italic;
+}
+.about_part .content h1{
+   font-size: 20px;
+   font-weight: bolder;
+   margin-top: 30px;
+
+}
+.about_part .content p{
+   font-size: 16px;
+   color: #FACC96;
+   font-weight: 500;
+}
+
+/* About  part end  */
+
+
+/* contact  part start  */
+.contact_part{
+    height: 570px;
+    width: 100%;
+    background: #3C5499;
+}
+.contact_part h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+ 
+}.contact_part p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+ 
+}
+.contact_part span{
+    background: #273A71;
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+form{
+text-align: center;
+margin-top: 10px;
+}
+input{
+border-radius: 6px;
+width: 350px;
+height: 42px;
+margin-left: 18px;
+background: #273A71;
+border: 0;
+outline: 0;
+color: #fff;
+font-size: 20px;
+padding: 10px 6px;
+}
+textarea{
+    border-radius: 6px;
+    width: 720px;
+    height: 130px; 
+    margin-top: 18px;
+    margin-left: 18px;
+    background: #273A71;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size:30px;
+   
+}
+::placeholder{
+   color: #fff;
+   padding: 5px 10px;
+   font-size: 16px;
+
+}
+textarea{
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px; 
+}
+.contact_part .btn{
+    margin-top: 45px;
+    background: #30BAE7;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 50px;
+    outline: 0;
+    border: 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+/* contact  part end  */
+
+/* footer  part start  */
+.footer_part{
+    height: 80px;
+    width: 100%;
+    background: #344B8E;
+
+}
+.footer .navbar {
+    padding-top: 10px;
+}
+.footer_part a{
+   margin-top: 15px;
+    margin: 16px;
+}
+.footer_part .active{
+   color: #30B6E3;
+}
+.footer_part .container{
+   margin-left: 200px;
+   padding-top: 25px;
+}
+.footer_part .navbar :hover{
+ color:#30B6E3 ;
+}
+
+/* footer  part end  */
